@@ -1,5 +1,4 @@
 let numbers: Array<number> = [1, 2, 3];
-
 let strings: Array<string> = ["Hi", "Hey"];
 
 let regularArr: number[] = numbers;
@@ -11,4 +10,4 @@ let nestedArr: Array<Array<number>> = [
   [3, 4]
 ];
 
-let mixedArr: Array<string | number> = [1, "Hi"];
+let mixedArr: Array<number | string> = [1, "Hi"];

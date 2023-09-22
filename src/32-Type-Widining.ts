@@ -4,18 +4,18 @@
 // let price = 10.99;
 // price = 9.99;
 
-type Product = {
-  name: "TS";
-  price: number;
-}
+// type Product = {
+//   name: "TS";
+//   price: number;
+// }
 
-function courseName(course: Product) {
-  return course.name;
-}
+// function courseName(course: Product) {
+//   return course.name;
+// }
 
-const course = {
-  name: "TS" as const,
-  price: 10
-}
+// const course = {
+//   name: "TS" as const,
+//   price: 10
+// }
 
-console.log(courseName(course));
+// console.log(courseName(course));
